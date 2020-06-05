@@ -1,0 +1,8 @@
+f=open("1.txt","w")
+f.write("Python")
+f=open("1.txt","r")
+print(f.read())
+f=open("1.txt","a")
+f.write("TEST")
+f=open("1.txt","r")
+print(f.read())
